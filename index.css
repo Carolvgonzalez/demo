@@ -1,0 +1,256 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* End of css reset*/
+body{
+background: rgba(140,140,240,1);
+
+}
+p{
+font-size: 2em%;
+color: rgb(000,0, 010);
+}
+
+#wrapper{
+width:85%;
+margin: 0 auto;
+background-color:white;
+min-height:300px;
+}
+
+#logo{
+float:left;
+}
+
+#top{
+clear:both;
+}
+#top li{
+	display: inline;
+	font-family: helvetica;
+	font-size: 1.2em;
+	margin: 0px 30px;
+	padding-left: 10px;
+}
+
+#top li a:link{
+	text-decoration: none;
+
+}
+#top ul{
+	border-top:1px #000 solid;
+	border-bottom:1px #000 solid;
+	margin: 30px 15px;
+	padding: 10px 0px;	
+}
+
+.yo{
+    margin-left: 10px;
+    padding: 10px 30px; 
+}
+#social{
+	float:right;
+}
+
+#social ul{
+	margin-top: 82px;
+	margin-right: 13px;
+	
+}
+
+#social li{
+	display:inline;
+	padding:10px;
+}
+
+h2{
+	font-size: 1.6em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+#content{
+padding-left: 25px;
+width: 80%;
+float: left;
+
+}
+
+#rw{
+float: right;
+width: 25%;
+border: 3px dotted blue;
+margin-right: 5%;
+padding: 10px 10px;
+background: rgba(100,200, 255, 0.5);
+border-radius: 10px;
+-moz-border-radius: 15px; /* supports old versions of fire fox */
+-webkit-box-shadow: 10px 10px 20px blue;
+box-shadow: 10px 10px 10px blue;
+}
+
+#m{
+	text-align: center;
+}
+.m1{
+	text-align: center;
+}
+#rw img{
+	padding-left: 15%;
+}
+#movie{
+	padding-left: 2.5%;
+}
+
+.textwrap{
+    float: left;
+    margin: 10px;
+
+}
+/*#next{
+	float:right;
+	clear:both;
+	width: 100px;
+	height: 100px;
+	padding-top: 3%;
+	background: green;
+	font-family: arial;
+	color: white;
+	transition:width 2s;
+	-webkit-transition: width 2s;
+	-moz-transition: width 2s; 
+}
+
+#next:hover   {
+	width: 300px;
+}
+*/
+.imageScroll{
+-webkit-animation-name:myanimation;
+-webkit-animation-duration: 20s;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+
+-moz-animation: myanimation 20s ease-in-out infinite alternate;
+ animation: myanimation 20s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes myanimation
+{
+
+
+
+}
+
+footer{
+clear: both;
+margin-top: 2%;
+border-top: 1px #ccc solid;
+padding: 1% 0%;
+
+}
+
+.footer-text{
+	font-size: 1em;
+	color: blue;
+	text-align: center;
+}
+
+
+
+
+
